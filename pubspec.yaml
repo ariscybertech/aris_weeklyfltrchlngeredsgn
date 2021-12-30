@@ -1,0 +1,37 @@
+name: weekly_flutter_challenge_7_bank_app_redesign
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/app_background.png
+   - assets/images/app_background_single.png
+   - assets/images/girl.png
+   - assets/images/girl_shadow.png
+   - assets/icons/gift.png
+   - assets/icons/math.png
+   - assets/icons/piggy.png
+   - assets/icons/power.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        # - asset: fonts/Schyler-Italic.ttf
+        #   style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
